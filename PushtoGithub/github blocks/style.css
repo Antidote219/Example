@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    width: 950px;
+    height: 950px;
+    background-color: silver;
+    align-items: center;
+    padding: 1.5rem;
+}
+.firstcol{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+   
+   
+}
+.secondcol{
+    background-color: powderblue;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+   
+    
+}
+.thirdcol{
+    background-color: cadetblue;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+}
+img.first {
+    height: 200px;
+    justify-content: center;
+}
+
+.mb{
+    margin-bottom: .5rem;
+}
