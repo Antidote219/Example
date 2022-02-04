@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- navbar -->
+    <div class="nav">
+        <div class="flex-container">
+            <h1 class="nav-title">Profile</h1>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#" class="active">My Profile</a></li>
+                <li><a href="#">Find Connections</a></li>
+                <li><button class="btn">Sign Out</button></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- main -->
+    <div class="flex-container main">
+
+        <!-- 2/3 width column -->
+        <div class="col-2">
+
+            <!-- user info card -->
+            <div class="card user-card">
+                <div class="card-header">
+                    <img src="./images/kevinhart.jpg" alt="jane" class="avatar-m">
+                </div>
+                <div class="card-body">
+                    <h1>Kevin Hart</h1>
+                    <h3><img src="icons/map-marker.png" alt="pin" class="icon-s"> Philadelphia</h3>
+                    <p>Comedian | Actor <br>
+                        My name is Kevin Hart and I WORK HARD!!! That pretty much sums me up!!! Everybody Wants To Be Famous But Nobody Wants To Do The Work</p>
+                    <p><a href="#"><img src="icons/gear.png" alt="gear" class="icon-s"> edit profile</a></p>
+                </div>
+            </div>
+
+            <!-- user education card -->
+            <div class="card">
+                <div class="card-header">
+                    <h3>Education</h3>
+                </div>
+                <div class="card-body">
+                    <h2>Coding Dojo - Full Stack Bootcamp</h2>
+                    <p class="dates">Dec 2019 - Mar 2020</p>
+                    <p>Triple black belt in Python, MERN, and C#...</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- 1/3 width column -->
+        <div class="col-1">
+
+            <!-- connection requests card -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="badge">2</span>
+                    <h3>Connection Requests</h3>
+                </div>
+                <ul class="card-list">
+                    <li class="card-list-item">
+                        <span>
+                            <img src="./images/therock.png" alt="todd" class="avatar-s">
+                            Dwayne 'The Rock' Johnson
+                        </span>
+                        <span>
+                            <img src="icons/accept-circle.png" alt="accept" class="icon">
+                            <img src="icons/close-circle.png" alt="close" class="icon">
+                        </span>
+                    </li>
+                    <li class="card-list-item">
+                        <span>
+                            <img src="./images/jackblack.png" alt="phil" class="avatar-s">
+                            Jack Black
+                        </span>
+                        <span>
+                            <img src="icons/accept-circle.png" alt="accept" class="icon">
+                            <img src="icons/close-circle.png" alt="close" class="icon">
+                        </span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- your connections card -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="badge">500+</span>
+                    <h3>Your Connections</h3>
+                </div>
+                <ul class="card-list">
+                    <li class="card-list-item start">
+                        <img src="./images/chrisrock.png" alt="adrien" class="avatar-s">
+                        Chris Rock
+                    </li>
+                    <li class="card-list-item start">
+                        <img src="./images/macmiller.png" alt="anne" class="avatar-s">
+                        Mac Miller
+                    </li>
+                    <li class="card-list-item start">
+                        <img src="./images/willsmith.png" alt="alayne" class="avatar-s">
+                        Will Smith
+                    </li>
+                    <li class="card-list-item start">
+                        <img src="./images/tomholland.jpg" alt="arry" class="avatar-s">
+                        Tom Holland
+                    </li>
+                </ul>
+                <div class="card-footer">
+                    <a href="#">View More</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
