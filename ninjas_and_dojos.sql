@@ -1,0 +1,1 @@
+SELECT * FROM ninjas WHERE dojos_id = 2
