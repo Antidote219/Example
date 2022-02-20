@@ -1,0 +1,37 @@
+INSERT INTO dojos (name) VALUES ('CobraKai')
+INSERT INTO dojos (name) VALUES ('MiyagiDo')
+INSERT INTO dojos (name) VALUES ('Kime Kawa Club')
+
+DELETE FROM dojos condition(s)
+
+INSERT INTO dojos (name) VALUES ('CobraKai')
+INSERT INTO dojos (name) VALUES ('MiyagiDo')
+INSERT INTO dojos (name) VALUES ('Kime Kawa Club')
+
+INSERT INTO ninjas (first_name, last_name, age, dojos_id) VALUES ('John', 'Smith', '18', '1')
+
+INSERT INTO ninjas (first_name, last_name, age, dojos_id) VALUES ('Randy', 'Savage', '23', '1')
+
+INSERT INTO ninjas (first_name, last_name, age, dojos_id) VALUES ('Bill', 'Watts', '21', '1')
+
+##
+
+INSERT INTO ninjas (first_name, last_name, age, dojos_id) VALUES ('Jack', 'Brisco', '24', '2')
+
+INSERT INTO ninjas (first_name, last_name, age, dojos_id) VALUES ('Jake', 'Roberts', '23', '2')
+
+INSERT INTO ninjas (first_name, last_name, age, dojos_id) VALUES ('Jimmy', 'Snuka', '27', '2')
+
+###
+
+INSERT INTO ninjas (first_name, last_name, age, dojos_id) VALUES ('Jim', 'Cornette', '26', '3')
+
+INSERT INTO ninjas (first_name, last_name, age, dojos_id) VALUES ('Vince', 'Russo', '32', '3')
+
+INSERT INTO ninjas (first_name, last_name, age, dojos_id) VALUES ('Bruce', 'Prichard', '36', '3')
+
+SELECT * FROM ninjas WHERE dojos_id = 1
+
+SELECT * FROM ninjas WHERE dojos_id = 2
+
+SELECT * FROM ninjas WHERE dojos_id = 3
