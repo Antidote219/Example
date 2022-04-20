@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>users</h1>
+    {% for user in all_users %}
+    <p>{{ user.first_name }} {{ user.last_name }} <a href="/edit/user/{{ user.id }}">Edit User</a>
+        <a href="/delete/user/{{ user.id }}">Delete User</a></p>
+    {% endfor %}
+    <a href="/">Add a User</a>
+</body>
+</html>
